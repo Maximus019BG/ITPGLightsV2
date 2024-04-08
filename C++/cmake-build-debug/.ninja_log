@@ -1,0 +1,10 @@
+# ninja log v5
+10	541	7333540332125784	CMakeFiles/C__.dir/main.cpp.obj	5aa2d15cd7beaa2b
+4	2099	7333540347704190	CMakeFiles/C__.dir/function.cpp.obj	6563f8569a85fb1
+1	192	7333543787217328	build.ninja	4c134e150f3d600d
+15	2057	7333540347278827	CMakeFiles/C__.dir/native-lib.cpp.obj	20bfb27797e02f3e
+4	221	7333541602459676	C__.exe	36eb3cfeeb90d1f3
+4	2122	7333544477392298	CMakeFiles/C__.dir/main.cpp.obj	5aa2d15cd7beaa2b
+2122	2266	7333544478783491	C__.exe	36eb3cfeeb90d1f3
+4	505	7333545323940692	CMakeFiles/C__.dir/main.cpp.obj	5aa2d15cd7beaa2b
+505	643	7333545325271837	C__.exe	36eb3cfeeb90d1f3
