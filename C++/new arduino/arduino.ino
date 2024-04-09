@@ -1,25 +1,14 @@
-const int button1Pin = 3;  // Pin for the first button
-const int lampSet1Pin = 4;  // Pin for the first lamp set
-const int button2Pin = 5;  // Pin for the second button
-const int lampSet2Pin = 6;  // Pin for the second lamp set
-const int button3Pin = 7;  // Pin for the third button
-const int lampSet3Pin = 8;  // Pin for the third lamp set
-const int button4Pin = 9;  // Pin for the fourth button
-const int lampSet4Pin = 10;  // Pin for the fourth lamp set
+const int lampSet1Pin = 3;  // Pin for the first lamp set
+const int lampSet2Pin = 4;  // Pin for the second lamp set
+const int lampSet3Pin = 5;  // Pin for the third lamp set
+const int lampSet4Pin = 6;  // Pin for the fourth lamp set
 
 const unsigned long duration = 15000;  // Duration to keep the lamps on (in milliseconds)
 
 void setup() {
-  pinMode(buttonPin1, INPUT_PULLUP);
   pinMode(lampSet1Pin, OUTPUT);
-
-  pinMode(buttonPin2, INPUT_PULLUP);
   pinMode(lampSet2Pin, OUTPUT);
-
-  pinMode(buttonPin3, INPUT_PULLUP);
   pinMode(lampSet3Pin, OUTPUT);
-
-  pinMode(buttonPin4, INPUT_PULLUP);
   pinMode(lampSet4Pin, OUTPUT);
 
   Serial.begin(9600);  // Start the serial communication with the baud rate 9600
