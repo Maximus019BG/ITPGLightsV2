@@ -12,6 +12,7 @@ add_executable(C__
         function.cpp
         functions.h
         main.cpp
-        native-lib.cpp)
+        native-lib.cpp
+        "new arduino/arduino.ino")
 
 target_link_libraries(C__ ws2_32 Bthprops)
