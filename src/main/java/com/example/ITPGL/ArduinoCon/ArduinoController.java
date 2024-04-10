@@ -19,3 +19,4 @@ public class ArduinoController {
         return ResponseEntity.ok().build();
     }
 }
+
