@@ -13,7 +13,7 @@ public class ArduinoController {
         this.arduinoService = arduinoService;
     }
 
-    @PostMapping("/command/{command}")
+    @GetMapping("/command/{command}")
     public ResponseEntity<Void> sendCommand(@PathVariable char command) {
         arduinoService.sendCommand(command);
         return ResponseEntity.ok().build();
