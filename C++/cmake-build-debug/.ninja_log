@@ -1,6 +1,6 @@
 # ninja log v5
 4	505	7333545323940692	CMakeFiles/C__.dir/main.cpp.obj	5aa2d15cd7beaa2b
 4	2099	7333540347704190	CMakeFiles/C__.dir/function.cpp.obj	6563f8569a85fb1
-1	192	7343542994908288	build.ninja	4c134e150f3d600d
+1	192	7346124133992430	build.ninja	4c134e150f3d600d
 15	2057	7333540347278827	CMakeFiles/C__.dir/native-lib.cpp.obj	20bfb27797e02f3e
 505	643	7333545325271837	C__.exe	36eb3cfeeb90d1f3

@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/addr2line.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/ar.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "27"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/cmake/win/x64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CLion 2023.3.4/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/cmake/win/x64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CLion 2023.3.4/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/g++.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/gcc-ar.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/gcc-ranlib.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -299,7 +299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/gcc.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -315,7 +315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/gcc-ar.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -331,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/gcc-ranlib.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/dlltool.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/ld.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -783,7 +783,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/nm.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -811,7 +811,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/objcopy.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/objdump.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/ranlib.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/windres.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/readelf.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/CLion 2023.3.4/bin/mingw/bin/strip.exe"
+			"value" : "D:/Program Files (x86)/New folder/CLion 2024.1/bin/mingw/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include][C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include/win32][cfound components: AWT JVM ][v()]"
+			"value" : "[D:/java/JDK/include][D:/java/JDK/include/win32][cfound components: AWT JVM ][v()]"
 		},
 		{
 			"name" : "JAVA_AWT_INCLUDE_PATH",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include"
+			"value" : "D:/java/JDK/include"
 		},
 		{
 			"name" : "JAVA_AWT_LIBRARY",
@@ -1347,7 +1347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/lib/jawt.lib"
+			"value" : "D:/java/JDK/lib/jawt.lib"
 		},
 		{
 			"name" : "JAVA_HOME",
@@ -1375,7 +1375,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include"
+			"value" : "D:/java/JDK/include"
 		},
 		{
 			"name" : "JAVA_INCLUDE_PATH2",
@@ -1391,7 +1391,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include/win32"
+			"value" : "D:/java/JDK/include/win32"
 		},
 		{
 			"name" : "JAVA_JVM_LIBRARY",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/lib/jvm.lib"
+			"value" : "D:/java/JDK/lib/jvm.lib"
 		},
 		{
 			"name" : "JNI_INCLUDE_PATH2_OPTIONAL",

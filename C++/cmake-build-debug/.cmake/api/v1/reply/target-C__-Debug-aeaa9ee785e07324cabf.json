@@ -69,11 +69,11 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include"
+					"path" : "D:/java/JDK/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/include/win32"
+					"path" : "D:/java/JDK/include/win32"
 				}
 			],
 			"language" : "CXX",
