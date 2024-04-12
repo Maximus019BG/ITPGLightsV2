@@ -1,0 +1,156 @@
+/* globals.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::placeholder {
+  font-size: 1em;
+}
+
+/* SideBar.css */
+
+.sidebar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.closed {
+  transform: translateX(-100%);
+}
+
+.toggle-button {
+  display: none; 
+  min-width: 100px; 
+  min-height: 50px;
+  padding-right: 5%;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  
+ 
+}
+
+
+.button-text {
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Add transition for opacity and position */
+  position: absolute; /* Position the texts on top of each other */
+  margin-left: -27.5%;
+}
+
+.button-text-hide {
+  opacity: 0;
+  transform: translateY(-100%); /* Move the hidden text up */
+}
+
+.button-text-show {
+  opacity: 1;
+  top:42%;
+  margin-left: -30%;
+  transform: translateY(0); /* Keep the shown text in place */
+}
+.button-text-show1 {
+  opacity: 1;
+  margin-left: -35%;
+  top:42%;
+  transform: translateY(0); /* Keep the shown text in place */
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-button {
+    display: block;
+    position: fixed;
+    top: 75%;
+    left: 1%;
+    transform: rotate(-90deg) translateX(-50%) translateY(-50%);
+    transform-origin: top left;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    color: white; /* text-white */
+    background-color: #32CD32; /* bg-green-300 */
+    border-radius: 10% 10% 10% 10%;
+  
+   
+  }
+
+  .toggle-button:hover {
+    background-color: #28a745; /* Darken the background color a bit on hover */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .toggle-button {
+      color: white; /* dark:text-green-400 */
+      background-color: #011E2B; /* dark:bg-[#011E2B] */
+    }
+  }
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.nav {
+  @apply relative ml-10 text-gray-500 text-md font-mono font-bold tracking-[1px] hover:text-black dark:hover:text-white dark:text-white
+}
+
+.nav::after {
+  @apply content-[''] bg-green-500 h-[2px] w-[0%] left-0 -bottom-[0px] rounded-xl absolute duration-300
+}
+
+.nav:hover::after {
+  @apply w-[100%]
+}
+
+.unselectable {
+  user-select: none;
+}
+
+/* Light Mode */
+.light {
+  background-color: white;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: #011E2B;
+}
