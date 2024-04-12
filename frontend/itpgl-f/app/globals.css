@@ -10,9 +10,9 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -112,13 +112,13 @@
 .input-field {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
 }
 
 .textarea-field {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
 }
 
 html {
@@ -130,7 +130,7 @@ body {
 }
 
 .nav {
-  @apply relative ml-10 text-gray-500 text-md font-mono font-bold tracking-[1px] hover:text-black dark:hover:text-white dark:text-white
+  @apply relative ml-10 text-blue-500 text-md font-mono font-bold tracking-[1px] hover:text-black dark:hover:text-white dark:text-white
 }
 
 .nav::after {
@@ -153,4 +153,7 @@ body {
 /* Dark Mode */
 .dark {
   background-color: #011E2B;
+}
+.join-item:hover {
+  background-color: #c6c6c7; /* Change to desired hover background color */
 }
