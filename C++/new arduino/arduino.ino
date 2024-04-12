@@ -46,6 +46,12 @@ void loop() {
             case '9':
                 digitalWrite(lampSet4Pin, LOW);
                 break;
+            case 'a':
+                digitalWrite(lampSet1Pin, HIGH);
+                digitalWrite(lampSet2Pin, HIGH);
+                digitalWrite(lampSet3Pin, HIGH);
+                digitalWrite(lampSet4Pin, HIGH);
+                break;
 
         }
     }
