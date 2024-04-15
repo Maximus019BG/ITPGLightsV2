@@ -1,39 +1,40 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import { Loader } from '@googlemaps/js-api-loader';
 
-const Map = () => {
+declare var google: any;
+
+export function Map() {
+  const mapRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const loadMap = async () => {
-      const { default: google } = await import('google.maps');
+    const initMap = async () => {
+      const loader = new Loader({
+        apiKey: "AIzaSyBhkA8BCdlnxVynOVgsiLNqR45fFrVSRCE",
+        version: "weekly",
+        
+      });
 
-      function initMap() {
-        const map = new google.maps.Map(
-          document.getElementById("map") as HTMLElement,
-          {
-            zoom: 4,
-            center: { lat: -33, lng: 151 },
-            disableDefaultUI: true,
-          }
-        );
-      }
+      await loader.load();
 
-      if (!window.google) {
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`;
-        script.async = true;
-        script.defer = true;
-        document.head.appendChild(script);
-      } else {
-        initMap();
-      }
+      const position = {
+        lat: 43.22398788704358,
+        lng:  27.938003899099456
+      };
+
+      const mapOptions: google.maps.MapOptions = {
+        center: position,
+        zoom: 19,
+        mapId: 'Id123',
+      };
+
+      new google.maps.Map(mapRef.current as HTMLDivElement, mapOptions);
     };
 
-    loadMap();
+    initMap();
   }, []);
 
   return (
-    <main>
-      <div id="map" style={{ height: '400px', width: '100%' }}></div>
-    </main>
+    <div className="z-20 left-80 -top-80" ref={mapRef} style={{ width: '50%', height: '500px' }}/>
   );
 }
 

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/arduino")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ArduinoController {
 
     private final ArduinoService arduinoService;
@@ -16,6 +17,7 @@ public class ArduinoController {
     @PostMapping("/command/{command}")
     public ResponseEntity<Void> sendCommand(@PathVariable char command) {
         arduinoService.sendCommand(command);
+        System.out.println("Command sent: " + command);
         return ResponseEntity.ok().build();
     }
 }
