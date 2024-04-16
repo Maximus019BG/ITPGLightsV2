@@ -80,7 +80,7 @@ const Buttons = () => {
 
   return (
     <main className=" z-10">
-      <div className="join mb-96 ml-96 ">
+      <div className="join flex justify-center items-center pb-8 mr-4">
         
         <button className="btn join-item h-24 w-32 bg-white border-none" onClick={handleClick1}>
           <div className= " flex flex-col justify-center items-center">
