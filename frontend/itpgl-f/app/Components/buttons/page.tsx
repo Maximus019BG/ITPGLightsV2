@@ -82,34 +82,34 @@ const Buttons = () => {
     <div className=" z-10">
       <div className="join flex justify-center items-center pb-8 mr-4">
         
-      <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 focus:pointer-events-none" onClick={handleClick2}>
+      <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700" onClick={handleClick1}>
           <div className= " flex flex-col justify-center items-center">
             <Image src={lamp1} alt="image" width="56" height="24" />
             <h1 className=" mr-4 mt-1">Основни</h1>
           </div>
         </button>
 
-        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 focus:pointer-events-none" onClick={handleClick2}>
+        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 " onClick={handleClick2}>
           <div className= " flex flex-col justify-center items-center">
             <Image src={lamp2} alt="image" width="56" height="24" />
             <h1 className=" mr-4 mt-1">Градина</h1>
           </div>
         </button>
 
-        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 focus:pointer-events-none" onClick={handleClick2}>
+        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 e" onClick={handleClick3}>
           <div className=" flex flex-col justify-center items-center">
             <Image src={lamp3} alt="image" width="56" height="24" />
             <h1 className=" mt-1">Сотира</h1>
           </div>
         </button>
 
-        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 focus:pointer-events-none" onClick={handleClick2}>
+        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 " onClick={handleClick4}>
           <div className=" flex flex-col justify-center items-center">
             <Image src={lamp4} alt="image" width="56" height="24" />
             <h1 className=" mt-1">Сграда</h1>
           </div>
         </button>
-        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700 focus:pointer-events-none" onClick={handleClick2}>
+        <button className="btn join-item h-24 w-32 bg-white border-none focus:bg-gray-700" onClick={handleClickA}>
           <div className=" flex flex-col justify-center items-center">
             <Image src={lamp3} alt="image" width="56" height="24" />
             <h1 className=" mt-1">Всички</h1>

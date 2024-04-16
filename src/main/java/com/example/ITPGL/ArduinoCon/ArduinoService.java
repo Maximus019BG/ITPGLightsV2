@@ -12,6 +12,12 @@ public class ArduinoService {
     private final SerialPort comPort;
     private final ScheduledExecutorService scheduler;
 
+
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+
     public ArduinoService() {
         comPort = SerialPort.getCommPort("COM3");
         comPort.openPort();
@@ -22,6 +28,39 @@ public class ArduinoService {
     public void sendCommand(char command) {
         byte[] commandBytes = new byte[]{(byte) command};
         comPort.writeBytes(commandBytes, 1);
-        System.out.println("Command sent: " + command);
+        ShowComand(command);
+    }
+
+    private void ShowComand(char command){
+        if (command == '1') {
+            System.out.println(ANSI_GREEN + "Command sent: " + command);
+        }
+        else if (command == '2') {
+            System.out.println(ANSI_GREEN + "Command sent: " + command);
+        }
+        else if (command == '3') {
+            System.out.println(ANSI_GREEN + "Command sent: " + command);
+        }
+        else if (command == '4'){
+            System.out.println(ANSI_GREEN + "Command sent: " + command);
+        }
+        else if (command == '5'){
+            System.out.println(ANSI_RED + "Command sent: " + command);
+        }
+        else if (command == '6'){
+            System.out.println(ANSI_YELLOW + "Command sent: " + command);
+        }
+        else if (command == '7'){
+            System.out.println(ANSI_YELLOW + "Command sent: " + command);
+        }
+        else if (command == '8'){
+            System.out.println(ANSI_YELLOW + "Command sent: " + command);
+        }
+        else if (command == '9'){
+            System.out.println(ANSI_YELLOW + "Command sent: " + command);
+        }
+        else if (command == 'a')
+            System.out.println(ANSI_CYAN + "Command sent: " + command);
     }
 }
+
