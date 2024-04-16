@@ -79,7 +79,7 @@ const Buttons = () => {
 
 
   return (
-    <main className=" z-10">
+    <div className=" z-10">
       <div className="join flex justify-center items-center pb-8 mr-4">
         
         <button className="btn join-item h-24 w-32 bg-white border-none" onClick={handleClick1}>
@@ -119,7 +119,7 @@ const Buttons = () => {
        
 
       </div>
-    </main>
+    </div>
   );
 };
 

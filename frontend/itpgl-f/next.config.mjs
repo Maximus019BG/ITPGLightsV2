@@ -1,6 +1,8 @@
+import withVideos from 'next-videos'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  optimizeFonts: false,
+
 }
 
-export default nextConfig;
+export default withVideos(nextConfig)

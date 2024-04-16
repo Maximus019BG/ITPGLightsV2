@@ -2,5 +2,8 @@
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
     "@types/google.maps": "^3.55.7"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }
