@@ -10,8 +10,8 @@ import Video from './Components/video/page';
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-end justify-center p-24">
-      <div className=' flex flex-col justify-center items-center'>
+    <main className="flex min-h-screen flex-col items-end justify-center p-24 overflow-hidden mr-24 ">
+      <div className=' flex flex-col justify-center items-center mt-16'>
         <Header />
         <Buttons />
       </div>
