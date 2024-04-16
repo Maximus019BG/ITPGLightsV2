@@ -34,7 +34,7 @@ export function Map() {
   }, []);
 
   return (
-    <div className="z-20 left-80 -top-80" ref={mapRef} style={{ width: '50%', height: '500px' }}/>
+    <div className="z-20" ref={mapRef} style={{ width: '50%', height: '50vh' }}/>
   );
 }
 
