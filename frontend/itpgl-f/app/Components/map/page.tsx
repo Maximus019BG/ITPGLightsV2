@@ -34,7 +34,7 @@ export function Map() {
   }, []);
 
   return (
-    <div className="relative p-0" ref={mapRef} style={{ width: '50%', height: '50vh' }}/>
+    <div className="relative p-0 border-none rounded-xl" ref={mapRef} style={{ width: '120%', height: '50vh' }}/>
   );
 }
 
