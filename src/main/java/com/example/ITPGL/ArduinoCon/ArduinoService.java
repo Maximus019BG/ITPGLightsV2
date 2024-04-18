@@ -4,7 +4,7 @@ import com.fazecast.jSerialComm.SerialPort;
 import org.springframework.stereotype.Service;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+
 
 @Service
 public class ArduinoService {
@@ -18,6 +18,7 @@ public class ArduinoService {
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_CYAN = "\u001B[36m";
 
+    //switch the SerialPort to the arduino
     public ArduinoService() {
         comPort = SerialPort.getCommPort("COM3");
         comPort.openPort();
